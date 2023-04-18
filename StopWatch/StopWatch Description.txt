@@ -1,0 +1,6 @@
+==========================DESCRIPTION=================================
+# This is a stop watch which counts the time after we press the Start
+button.
+# If we press Pause button it pauses at the time value we clicked.
+# If we press Reset button it resets the value back to the one it was
+in the beginning.
