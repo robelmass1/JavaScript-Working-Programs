@@ -1,0 +1,28 @@
+#gameDiv{
+    font-family: consolas, monospace;
+    border: 4px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+.choiceBtn{
+    background-color: greenyellow;
+    color:purple;
+    font-size: 20px;
+    border-radius: 10px;
+    text-shadow: 10px 10px 10px white;
+    width: 100px;
+    
+    
+}
+#playerText{
+    color: crimson;
+}
+#computerText{
+    color: blue;
+}
+#resultText{
+    color: darkorange;
+}

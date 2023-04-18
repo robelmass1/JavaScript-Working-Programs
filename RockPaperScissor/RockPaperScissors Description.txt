@@ -1,0 +1,21 @@
+========================DESCRIPTION==================================
+# This is a Rock Paper Scissor game which is a type of probablity game
+pattern. When we click the buttons: Rock, Paper and Scissors we get an 
+output to be displayed. This output determines wheather we win or lose 
+the game. 
+# The result is displayed in result section.
+# Player generates the value of player.
+# Computer generates the value that is randomly picked by the computer.
+# The winning criteria is listed below:
+   if(player==computer){
+        return "Draw!";
+    }
+    else if(computer=="Rock"){
+        return (player=="Paper")?"YOU WIN":" You Lost";
+    }
+    else if(computer=="Paper"){
+        return (player=="Scissors")?"YOU WIN":" You Lost";
+    }
+    else if(computer=="Scissors"){
+        return (player=="Rock")?"YOU WIN":" You Lost";
+    }
